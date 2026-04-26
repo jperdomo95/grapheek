@@ -6,7 +6,7 @@
     <title>Beeanie English Institute | Learn English with Confidence</title>
     <meta
       name="description"
-      content="Beeanie English Institute helps students speak English with confidence through practical classes, mentoring, and a warm community."
+      content="BeeaniEnglish Institute helps students speak English with confidence through practical classes, mentoring, and a warm community."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,12 +16,12 @@
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body>
+  <!-- Toggle layout: use class "layout-full-brand" on body for full purple canvas -->
+  <body class="layout-full-brand">
     <header class="site-header">
       <div class="container nav-wrap">
         <a href="#top" class="brand">
-          <span class="brand-mark">🐝</span>
-          <span class="brand-text">Beeanie English</span>
+          <img class="brand-logo" src="./assets/Beeanienglish.png" alt="Beeanie English Institute" />
         </a>
         <nav class="top-nav" aria-label="Main navigation">
           <a href="#services">Services</a>
@@ -35,15 +35,120 @@
 
     <main id="top">
       <section class="hero">
+        <div class="hero-decor" aria-hidden="true">
+          <svg
+            class="hero-decor__hive"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 320 320"
+            width="320"
+            height="320"
+            focusable="false"
+          >
+            <defs>
+              <path
+                id="heroHexShape"
+                d="M0,-11 L9.526,-5.5 L9.526,5.5 L0,11 L-9.526,5.5 L-9.526,-5.5 Z"
+              />
+              <linearGradient
+                id="heroHiveFade"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="1"
+                gradientUnits="objectBoundingBox"
+              >
+                <stop offset="0%" stop-color="#fff" stop-opacity="0.95" />
+                <stop offset="42%" stop-color="#fff" stop-opacity="0.35" />
+                <stop offset="100%" stop-color="#fff" stop-opacity="0" />
+              </linearGradient>
+              <mask id="heroHiveMask">
+                <rect width="100%" height="100%" fill="url(#heroHiveFade)" />
+              </mask>
+            </defs>
+            <g
+              fill="none"
+              stroke="rgba(255,255,255,0.22)"
+              stroke-width="1.15"
+              mask="url(#heroHiveMask)"
+            >
+              <use href="#heroHexShape" transform="translate(24,36)" />
+              <use href="#heroHexShape" transform="translate(43.05,36)" />
+              <use href="#heroHexShape" transform="translate(62.1,36)" />
+              <use href="#heroHexShape" transform="translate(81.15,36)" />
+              <use href="#heroHexShape" transform="translate(100.2,36)" />
+              <use href="#heroHexShape" transform="translate(119.25,36)" />
+              <use href="#heroHexShape" transform="translate(138.3,36)" />
+              <use href="#heroHexShape" transform="translate(33.5,52.5)" />
+              <use href="#heroHexShape" transform="translate(52.55,52.5)" />
+              <use href="#heroHexShape" transform="translate(71.6,52.5)" />
+              <use href="#heroHexShape" transform="translate(90.65,52.5)" />
+              <use href="#heroHexShape" transform="translate(109.7,52.5)" />
+              <use href="#heroHexShape" transform="translate(128.75,52.5)" />
+              <use href="#heroHexShape" transform="translate(147.8,52.5)" />
+              <use href="#heroHexShape" transform="translate(24,69)" />
+              <use href="#heroHexShape" transform="translate(43.05,69)" />
+              <use href="#heroHexShape" transform="translate(62.1,69)" />
+              <use href="#heroHexShape" transform="translate(81.15,69)" />
+              <use href="#heroHexShape" transform="translate(100.2,69)" />
+              <use href="#heroHexShape" transform="translate(119.25,69)" />
+              <use href="#heroHexShape" transform="translate(138.3,69)" />
+              <use href="#heroHexShape" transform="translate(33.5,85.5)" />
+              <use href="#heroHexShape" transform="translate(52.55,85.5)" />
+              <use href="#heroHexShape" transform="translate(71.6,85.5)" />
+              <use href="#heroHexShape" transform="translate(90.65,85.5)" />
+              <use href="#heroHexShape" transform="translate(109.7,85.5)" />
+              <use href="#heroHexShape" transform="translate(128.75,85.5)" />
+              <use href="#heroHexShape" transform="translate(43.05,102)" />
+              <use href="#heroHexShape" transform="translate(62.1,102)" />
+              <use href="#heroHexShape" transform="translate(81.15,102)" />
+              <use href="#heroHexShape" transform="translate(100.2,102)" />
+              <use href="#heroHexShape" transform="translate(119.25,102)" />
+            </g>
+          </svg>
+          <svg
+            class="hero-decor__bee"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 220 200"
+            width="220"
+            height="200"
+            focusable="false"
+          >
+            <path
+              d="M8 148 C48 128 92 118 138 108 C168 100 188 88 198 72"
+              fill="none"
+              stroke="#ffffff"
+              stroke-width="2.2"
+              stroke-dasharray="7 7"
+              stroke-linecap="round"
+              opacity="0.92"
+            />
+            <g
+              transform="translate(178,58) rotate(38)"
+              fill="none"
+              stroke="#f68b1f"
+              stroke-width="2.2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <ellipse cx="0" cy="0" rx="15" ry="10.5" />
+              <line x1="-6" y1="-3" x2="-6" y2="3" />
+              <line x1="0" y1="-4" x2="0" y2="4" />
+              <line x1="6" y1="-3" x2="6" y2="3" />
+              <circle cx="-11" cy="-5" r="5" />
+              <path d="M-14 -10 L-17 -16 M-8 -10 L-5 -16" />
+              <ellipse cx="-18" cy="-2" rx="10" ry="6" opacity="0.55" />
+              <ellipse cx="-18" cy="4" rx="10" ry="6" opacity="0.55" />
+              <path d="M12 -2 L22 -8 L26 0 L22 8 L12 2" />
+              <path d="M12 2 L22 8 L26 0 L22 -8 L12 -2" />
+            </g>
+          </svg>
+        </div>
         <div class="container hero-grid">
           <div>
-            <p class="eyebrow">Beeanie English Institute</p>
+            <p class="eyebrow">BeeaniEnglish Institute</p>
             <h1>Learn English in a fun way and speak with confidence.</h1>
             <p class="hero-copy">
-              We help students build real communication skills through guided
-              speaking practice, practical grammar, and motivating classes.
-              Whether you are starting from zero or leveling up, Beeanie is
-              your English home.
+              We help students improve their communication skills through guided speaking practice and dynamic online lessons. Whether you are starting from zero or leveling up, Beeanie is your safe place for English! 
             </p>
             <div class="hero-ctas">
               <a class="button button-dark" href="#contact">Start your journey</a>
@@ -60,7 +165,7 @@
               </li>
               <li>
                 <strong>Supportive community</strong>
-                <span>Learn with motivation and accountability</span>
+                <span>You’re not alone on this journey! Join our exclusive channel and interact with students and supportive teachers!</span>
               </li>
             </ul>
           </div>
@@ -97,8 +202,7 @@
             <article class="card">
               <h3>Conversation Club</h3>
               <p>
-                Gain fluency through guided conversation sessions, roleplay, and
-                confidence-building speaking challenges.
+                Improve your fluency and build your confidence through guided conversation sessions, roleplays and hot topics that will put your skills to the test.
               </p>
             </article>
             <article class="card">
@@ -106,13 +210,6 @@
               <p>
                 Prepare for interviews or proficiency exams with strategic
                 practice, corrections, and personalized study plans.
-              </p>
-            </article>
-            <article class="card">
-              <h3>Kids & Teen Programs</h3>
-              <p>
-                Dynamic classes for younger learners using games, stories, and
-                activities that keep students engaged.
               </p>
             </article>
           </div>
@@ -135,15 +232,13 @@
               <li>
                 <h3>2. Guided practice</h3>
                 <p>
-                  Every class combines clear explanations with immediate speaking
-                  and listening practice.
+                  Every class combines clear explanations with immediate speaking and listening practice as well as interactive games to make sure you fully understand each lesson.
                 </p>
               </li>
               <li>
                 <h3>3. Feedback & growth</h3>
                 <p>
-                  You receive personalized corrections and action points so you
-                  keep improving every week.
+                  You receive tailored feedback and corrections after each class. We detect your pain points and work on them.
                 </p>
               </li>
             </ol>
@@ -197,8 +292,8 @@
           <div class="contact-card">
             <h3>Contact Beeanie</h3>
             <p><strong>Instagram:</strong> @beeanienglish</p>
-            <p><strong>WhatsApp:</strong> +00 000 000 0000</p>
-            <p><strong>Email:</strong> hello@beeanienglish.com</p>
+            <p><strong>WhatsApp:</strong> +58 412 827 0380</p>
+            <p><strong>Email:</strong> beeanienglish@gmail.com</p>
             <a
               class="button button-dark button-block"
               href="https://www.instagram.com/beeanienglish?igsh=MTdmNG5rZXg0d295eg=="
