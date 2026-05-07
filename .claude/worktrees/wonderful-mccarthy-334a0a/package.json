@@ -1,0 +1,14 @@
+{
+  "name": "grapheek",
+  "version": "1.0.0",
+  "description": "First iteration of grapheek page",
+  "main": "index.js",
+  "repository": "https://github.com/jperdomo95/grapheek.git",
+  "author": "grapheek",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.9"
+  }
+}

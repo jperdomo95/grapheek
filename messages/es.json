@@ -1,0 +1,151 @@
+{
+  "Metadata": {
+    "title": "Beeanie English Institute | Aprende inglés con confianza",
+    "description": "BeeaniEnglish Institute ayuda a sus estudiantes a hablar inglés con confianza a través de clases prácticas, mentoría y una comunidad cercana.",
+    "ogLocale": "es_VE"
+  },
+  "Header": {
+    "nav": {
+      "services": "Servicios",
+      "method": "Método",
+      "stories": "Historias",
+      "contact": "Contacto"
+    },
+    "navAriaLabel": "Navegación principal",
+    "cta": "Reserva tu clase de prueba"
+  },
+  "Hero": {
+    "eyebrow": "BeeaniEnglish Institute",
+    "title": "Aprende inglés de forma divertida y habla con confianza.",
+    "lead": "Te ayudamos a mejorar tus habilidades de comunicación con práctica oral guiada y clases dinámicas en línea. ¡Ya sea que partas desde cero o quieras subir de nivel, Beeanie es tu lugar seguro para aprender inglés!",
+    "ctaPrimary": "Comienza tu camino",
+    "ctaSecondary": "Conoce nuestros programas",
+    "highlightsAriaLabel": "Aspectos destacados del instituto",
+    "highlights": {
+      "live": {
+        "title": "Clases en vivo",
+        "body": "Sesiones interactivas con práctica real"
+      },
+      "small": {
+        "title": "Grupos pequeños",
+        "body": "Más tiempo para hablar y feedback personalizado"
+      },
+      "community": {
+        "title": "Comunidad que apoya",
+        "body": "¡No estás solo en este camino! Únete a nuestro canal exclusivo e interactúa con estudiantes y profesores que te apoyan."
+      }
+    },
+    "asideAriaLabel": "Áreas en las que trabajamos",
+    "asideTitle": "Lo que mejoran los estudiantes",
+    "asideItems": {
+      "speaking": "Fluidez al hablar y pronunciación",
+      "grammar": "Gramática y vocabulario en contexto",
+      "listening": "Comprensión auditiva para conversaciones reales",
+      "confidence": "Confianza para entrevistas y exámenes"
+    },
+    "followUs": "Síguenos en Instagram:"
+  },
+  "Services": {
+    "eyebrow": "Nuestros servicios",
+    "title": "Programas diseñados para cada etapa",
+    "programs": {
+      "general": {
+        "title": "Inglés general",
+        "body": "Construye tu base en expresión oral, comprensión auditiva, escritura y gramática con temas prácticos del día a día."
+      },
+      "conversation": {
+        "title": "Club de conversación",
+        "body": "Mejora tu fluidez y gana confianza con sesiones de conversación guiadas, juegos de rol y temas de actualidad que pondrán a prueba tus habilidades."
+      },
+      "exam": {
+        "title": "Preparación para exámenes",
+        "body": "Prepárate para entrevistas o exámenes de certificación con práctica estratégica, correcciones y planes de estudio personalizados."
+      }
+    }
+  },
+  "Method": {
+    "eyebrow": "Cómo enseñamos",
+    "title": "Un método simple que genera progreso real",
+    "steps": {
+      "placement": {
+        "title": "Nivelación y metas",
+        "body": "Empezamos con tu nivel actual y definimos metas que se ajusten a tu rutina y motivación."
+      },
+      "practice": {
+        "title": "Práctica guiada",
+        "body": "Cada clase combina explicaciones claras con práctica inmediata de expresión oral y comprensión auditiva, además de juegos interactivos para asegurar que comprendas cada lección."
+      },
+      "feedback": {
+        "title": "Retroalimentación y avance",
+        "body": "Recibes feedback y correcciones personalizadas después de cada clase. Detectamos tus puntos débiles y trabajamos en ellos."
+      }
+    },
+    "reasonsTitle": "Por qué los estudiantes eligen Beeanie",
+    "reasons": {
+      "friendly": "Clases cercanas con estructura y objetivos claros",
+      "personalized": "Acompañamiento personalizado de profesores dedicados",
+      "speaking": "Mucho tiempo para hablar en cada clase",
+      "motivation": "Motivación constante con una cultura de aprendizaje positiva"
+    }
+  },
+  "Testimonials": {
+    "eyebrow": "Historias de estudiantes",
+    "title": "Resultados que se sienten en el día a día",
+    "quotes": {
+      "adult": {
+        "body": "Antes me daba miedo hablar en clase. Ahora me comunico con confianza en mis reuniones de trabajo.",
+        "cite": "Estudiante adulto"
+      },
+      "parent": {
+        "body": "Las clases son dinámicas y claras. Mi adolescente ahora disfruta del inglés y participa más en la escuela.",
+        "cite": "Madre/Padre"
+      },
+      "club": {
+        "body": "Me encantó la energía positiva. Mejoré mi pronunciación y aprendí vocabulario que uso a diario.",
+        "cite": "Estudiante del club de conversación"
+      }
+    }
+  },
+  "Contact": {
+    "eyebrow": "¿Listo para empezar?",
+    "title": "Reserva tu clase de prueba con {brand}",
+    "lead": "Envíanos un mensaje y te ayudaremos a elegir el programa ideal para tu nivel actual y tus metas.",
+    "labels": {
+      "instagram": "Instagram:",
+      "whatsapp": "WhatsApp:",
+      "email": "Correo:"
+    },
+    "cardTitle": "Contacta a Beeanie",
+    "cardLead": "Normalmente respondemos en un día hábil."
+  },
+  "ContactForm": {
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "websiteLabel": "Sitio web",
+    "submit": "Enviar mensaje",
+    "sending": "Enviando...",
+    "verificationDisabled": "Verificación desactivada — define NEXT_PUBLIC_TURNSTILE_SITE_KEY para activarla.",
+    "successTitle": "¡Gracias! Recibimos tu mensaje.",
+    "successBody": "Te responderemos lo antes posible. ¡Hablamos pronto!",
+    "errors": {
+      "name": "Por favor, escribe tu nombre",
+      "email": "Por favor, escribe un correo válido",
+      "messageShort": "El mensaje es muy corto",
+      "verificationMissing": "Falta la verificación",
+      "fixFields": "Por favor, corrige los campos marcados.",
+      "verificationFailed": "La verificación falló. Inténtalo de nuevo.",
+      "emailNotConfigured": "El servicio de correo no está configurado.",
+      "sendFailed": "No pudimos enviar tu mensaje. Inténtalo de nuevo."
+    }
+  },
+  "Footer": {
+    "rights": "© {year} {brand}. Todos los derechos reservados.",
+    "follow": "Síguenos en Instagram"
+  },
+  "LanguageSwitcher": {
+    "ariaLabel": "Cambiar idioma",
+    "spanish": "ES",
+    "english": "EN"
+  }
+}

@@ -1,20 +1,30 @@
 {
-  "name": "grapheek",
-  "version": "1.0.0",
-  "description": "First iteration of grapheek page",
-  "main": "index.js",
-  "repository": "https://github.com/jperdomo95/grapheek.git",
-  "author": "grapheek",
-  "license": "MIT",
+  "name": "beeanienglish-web",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "serve . -l 5173 --no-clipboard",
-    "build": "node scripts/build.mjs",
-    "preview": "serve dist -l 5174 --no-clipboard"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^16.2.4",
+    "next-intl": "^4.11.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "resend": "^4.0.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "autoprefixer": "^10.3.4",
-    "postcss": "^8.3.6",
-    "serve": "^14.2.4",
-    "tailwindcss": "^2.2.9"
+    "@tailwindcss/postcss": "^4.2.4",
+    "@types/node": "^22.9.0",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "eslint": "^9.14.0",
+    "eslint-config-next": "^16.2.4",
+    "tailwindcss": "^4.2.4",
+    "typescript": "^5.6.3"
   }
 }

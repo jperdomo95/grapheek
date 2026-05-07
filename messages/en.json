@@ -1,0 +1,151 @@
+{
+  "Metadata": {
+    "title": "Beeanie English Institute | Learn English with Confidence",
+    "description": "BeeaniEnglish Institute helps students speak English with confidence through practical classes, mentoring, and a warm community.",
+    "ogLocale": "en_US"
+  },
+  "Header": {
+    "nav": {
+      "services": "Services",
+      "method": "Method",
+      "stories": "Stories",
+      "contact": "Contact"
+    },
+    "navAriaLabel": "Main navigation",
+    "cta": "Book a Trial"
+  },
+  "Hero": {
+    "eyebrow": "BeeaniEnglish Institute",
+    "title": "Learn English in a fun way and speak with confidence.",
+    "lead": "We help students improve their communication skills through guided speaking practice and dynamic online lessons. Whether you are starting from zero or leveling up, Beeanie is your safe place for English!",
+    "ctaPrimary": "Start your journey",
+    "ctaSecondary": "See our programs",
+    "highlightsAriaLabel": "Quick institute highlights",
+    "highlights": {
+      "live": {
+        "title": "Live classes",
+        "body": "Interactive sessions with real practice"
+      },
+      "small": {
+        "title": "Small groups",
+        "body": "More speaking time and personal feedback"
+      },
+      "community": {
+        "title": "Supportive community",
+        "body": "You're not alone on this journey! Join our exclusive channel and interact with students and supportive teachers!"
+      }
+    },
+    "asideAriaLabel": "Beeanie focus areas",
+    "asideTitle": "What students improve",
+    "asideItems": {
+      "speaking": "Speaking fluency and pronunciation",
+      "grammar": "Grammar and vocabulary in context",
+      "listening": "Listening for real conversations",
+      "confidence": "Confidence in interviews and exams"
+    },
+    "followUs": "Follow us on Instagram:"
+  },
+  "Services": {
+    "eyebrow": "Our services",
+    "title": "Programs designed for every stage",
+    "programs": {
+      "general": {
+        "title": "General English",
+        "body": "Build your foundation in speaking, listening, writing, and grammar with practical everyday topics."
+      },
+      "conversation": {
+        "title": "Conversation Club",
+        "body": "Improve your fluency and build your confidence through guided conversation sessions, roleplays and hot topics that will put your skills to the test."
+      },
+      "exam": {
+        "title": "Exam Preparation",
+        "body": "Prepare for interviews or proficiency exams with strategic practice, corrections, and personalized study plans."
+      }
+    }
+  },
+  "Method": {
+    "eyebrow": "How we teach",
+    "title": "A simple method that creates real progress",
+    "steps": {
+      "placement": {
+        "title": "Placement & goals",
+        "body": "We start with your current level and define goals that fit your routine and motivation."
+      },
+      "practice": {
+        "title": "Guided practice",
+        "body": "Every class combines clear explanations with immediate speaking and listening practice as well as interactive games to make sure you fully understand each lesson."
+      },
+      "feedback": {
+        "title": "Feedback & growth",
+        "body": "You receive tailored feedback and corrections after each class. We detect your pain points and work on them."
+      }
+    },
+    "reasonsTitle": "Why students choose Beeanie",
+    "reasons": {
+      "friendly": "Friendly classes with structure and clear objectives",
+      "personalized": "Personalized guidance from dedicated teachers",
+      "speaking": "High speaking time in every lesson",
+      "motivation": "Consistent motivation through a positive learning culture"
+    }
+  },
+  "Testimonials": {
+    "eyebrow": "Student stories",
+    "title": "Results that feel real in everyday life",
+    "quotes": {
+      "adult": {
+        "body": "I used to be afraid of speaking in class. Now I can communicate confidently at work meetings.",
+        "cite": "Adult student"
+      },
+      "parent": {
+        "body": "The classes are dynamic and clear. My teenager now enjoys English and participates more in school.",
+        "cite": "Parent"
+      },
+      "club": {
+        "body": "I loved the positive vibe. I improved pronunciation and learned vocabulary I actually use daily.",
+        "cite": "Conversation club student"
+      }
+    }
+  },
+  "Contact": {
+    "eyebrow": "Ready to begin?",
+    "title": "Book your trial class with {brand}",
+    "lead": "Send us a message and we will help you choose the right program for your current level and goals.",
+    "labels": {
+      "instagram": "Instagram:",
+      "whatsapp": "WhatsApp:",
+      "email": "Email:"
+    },
+    "cardTitle": "Contact Beeanie",
+    "cardLead": "We usually reply within one business day."
+  },
+  "ContactForm": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "websiteLabel": "Website",
+    "submit": "Send message",
+    "sending": "Sending...",
+    "verificationDisabled": "Verification disabled — set NEXT_PUBLIC_TURNSTILE_SITE_KEY to enable.",
+    "successTitle": "Thanks — message received!",
+    "successBody": "We'll reply as soon as possible. Talk to you soon!",
+    "errors": {
+      "name": "Please enter your name",
+      "email": "Please enter a valid email",
+      "messageShort": "Message is too short",
+      "verificationMissing": "Verification missing",
+      "fixFields": "Please fix the highlighted fields.",
+      "verificationFailed": "Verification failed. Please try again.",
+      "emailNotConfigured": "Email service is not configured.",
+      "sendFailed": "We couldn't send your message. Please try again."
+    }
+  },
+  "Footer": {
+    "rights": "© {year} {brand}. All rights reserved.",
+    "follow": "Follow on Instagram"
+  },
+  "LanguageSwitcher": {
+    "ariaLabel": "Change language",
+    "spanish": "ES",
+    "english": "EN"
+  }
+}
